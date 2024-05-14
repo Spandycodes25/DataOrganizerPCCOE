@@ -1,0 +1,47 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+/* Style the navbar */
+.navbar {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 15px 0; /* Padding for top and bottom */
+}
+
+/* Container for the navbar content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Card styling */
+.card {
+    height: 100%; /* Ensures equal height for both cards */
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-text {
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}

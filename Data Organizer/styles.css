@@ -1,0 +1,70 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+/* Style the navbar */
+.navbar {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 15px 0; /* Padding for top and bottom */
+}
+
+/* Container for the navbar content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Make carousel images responsive */
+.carousel-item img {
+    max-height: 70vh; /* Adjust maximum height as needed */
+    width: auto; /* Ensure the width adjusts automatically to maintain aspect ratio */
+    height: auto; /* Ensure the height adjusts automatically to maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    object-position: center; /* Center the image vertically */
+}
+
+/* Style the footer */
+.footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 40px 0; /* Padding for top and bottom */
+}
+
+.footer h3 {
+    color: #fff; /* Light text color */
+    margin-bottom: 20px;
+}
+
+.footer p {
+    color: #fff; /* Light text color */
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer ul li a {
+    color: #fff; /* Light text color */
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.footer ul li a:hover {
+    color: #ff0000; /* Red text color on hover */
+}
